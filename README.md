@@ -1,3 +1,5 @@
+This is a fork of KISS_MP made specifically for use with nucleus co-op. It disabled the UI and auto connects to local host on launch. 
+
 # KissMP
 ![alt text](https://i.imgur.com/kxocgKD.png)
 
