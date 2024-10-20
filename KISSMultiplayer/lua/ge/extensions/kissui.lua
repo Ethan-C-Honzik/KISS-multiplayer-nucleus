@@ -42,7 +42,7 @@ M.player_name = imgui.ArrayChar(32, "Unknown")
 M.show_nametags = imgui.BoolPtr(true)
 M.show_drivers = imgui.BoolPtr(true)
 M.window_opacity = imgui.FloatPtr(0.8)
-M.enable_view_distance = imgui.BoolPtr(true)
+M.enable_view_distance = imgui.BoolPtr(false)
 M.view_distance = imgui.IntPtr(300)
 
 local function show_ui()
