@@ -46,9 +46,13 @@ M.enable_view_distance = imgui.BoolPtr(true)
 M.view_distance = imgui.IntPtr(300)
 
 local function show_ui()
-  M.gui.showWindow("KissMP")
-  M.gui.showWindow("Chat")
-  M.gui.showWindow("Downloads")
+  -- hack to disable the UI
+  --M.gui.showWindow("KissMP")
+  --M.gui.showWindow("Chat")
+  --M.gui.showWindow("Downloads")
+  M.gui.hideWindow("KissMP")
+  M.gui.hideWindow("Chat")
+  M.gui.hideWindow("Downloads")
   ui_showing = true
 end
 
